@@ -50,4 +50,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Screenshot
 
-![Gallery Screenshot](screenshort.png)
+![Gallery Screenshot](/images/Screenshort.png)
