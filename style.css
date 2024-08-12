@@ -103,6 +103,8 @@ body {
   font-size: 1.6vw;
   opacity: 0;
   animation: animate 1s ease-in-out 0.3s 1 forwards;
+  text-shadow: 2px 2px 3px #000000;
+  font-weight: 600;
 }
 
 .content button {
@@ -148,9 +150,76 @@ body {
 }
 
 .button button:hover {
-  background: #000;
+  background: #002530;
   color: #fff;
   box-shadow:0 0 3px 3px inset #ffffff;
+}
+
+/* see more unique button long style ===--->> */
+
+.see-more {
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid #006c71;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;  no needed already done*/
+  cursor: pointer;
+  border-radius: 0.5vw;
+  color: #000000df;
+  font-weight: 600;
+  background: #9dfaff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.see-more span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.see-more span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.see-more:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #002f3d;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.see-more:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.see-more:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
 }
 
 @media (max-width: 768px) {
