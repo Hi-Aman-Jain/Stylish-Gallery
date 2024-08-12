@@ -2,7 +2,7 @@
 
 A responsive and interactive image gallery built with HTML, CSS, and JavaScript. This gallery features smooth transitions, animations, and a user-friendly interface.
 
-![Banner](banner.png)
+![Banner](/images/banner.png)
 
 ## Features
 
