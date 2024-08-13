@@ -1,4 +1,4 @@
-# Modern Image Gallery
+# Stylish Image Gallery
 
 A responsive and interactive image gallery built with HTML, CSS, and JavaScript. This gallery features smooth transitions, animations, and a user-friendly interface.
 
@@ -8,9 +8,7 @@ A responsive and interactive image gallery built with HTML, CSS, and JavaScript.
 
 - 🖼️ Responsive design that works on desktop and mobile devices
 - 🔄 Smooth transitions between images
-- 👆 Touch-friendly navigation for mobile users
-- 🖱️ Click or swipe to navigate through images
-- 👍 Thumbnail navigation for quick image selection
+- 👆 Touch-friendly navigation for mobile user
 - 🎨 Customizable animations for image transitions
 
 ## Demo
